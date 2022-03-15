@@ -41,9 +41,10 @@ public class StudentImplement implements CommandLineRunner {
         courseRep.save(java);
         
         Department inforManagement = new Department();
-              inforManagement.setName("software eng");
+        inforManagement.setName("software eng");
         inforManagement.setFaculty(it);
         inforManagement.setFaculty(theology);
+
 
 
 
